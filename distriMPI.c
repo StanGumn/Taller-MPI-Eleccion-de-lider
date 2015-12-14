@@ -5,6 +5,7 @@
 #define BUFSIZE 128
 #define TAG 0
 
+
 void main(int argc, char* argv[]) { 
 	int numero, idlider, numprocs, myid, i;
 	char buff[BUFSIZE], auxbuff[BUFSIZE], *ptr;
